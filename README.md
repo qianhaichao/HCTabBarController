@@ -1,0 +1,4 @@
+# HCTabBarController
+适配iPhoneX的自定义TabBarController以及徽标处理
+
+目前自定义控件只支持UIButton，后期会扩展其他控件
