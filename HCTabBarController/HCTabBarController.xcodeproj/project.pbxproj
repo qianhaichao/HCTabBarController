@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA6E24BD200EF2EC0003A982 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E24BC200EF2EC0003A982 /* AppDelegate.m */; };
+		CA6E24C0200EF2EC0003A982 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E24BF200EF2EC0003A982 /* ViewController.m */; };
+		CA6E24C3200EF2EC0003A982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6E24C1200EF2EC0003A982 /* Main.storyboard */; };
+		CA6E24C5200EF2EC0003A982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6E24C4200EF2EC0003A982 /* Assets.xcassets */; };
+		CA6E24C8200EF2EC0003A982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6E24C6200EF2EC0003A982 /* LaunchScreen.storyboard */; };
+		CA6E24CB200EF2EC0003A982 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E24CA200EF2EC0003A982 /* main.m */; };
+		CA6E24D5200EF3260003A982 /* UIColor+HCHex.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E24D4200EF3260003A982 /* UIColor+HCHex.m */; };
+		CA6E24D8200EF3D90003A982 /* UIView+HCFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E24D7200EF3D90003A982 /* UIView+HCFrame.m */; };
+		CA6E24DB200EF4B90003A982 /* CAAnimation+HCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E24DA200EF4B90003A982 /* CAAnimation+HCAnimation.m */; };
+		CA6E24DE200F18650003A982 /* HCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E24DD200F18650003A982 /* HCTabBarController.m */; };
+		CA6E24E1200F18990003A982 /* HCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E24E0200F18990003A982 /* HCTabBar.m */; };
+		CA6E24E4200F19760003A982 /* HCTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E24E3200F19760003A982 /* HCTabBarConfig.m */; };
+		CA6E24E7200F2C8C0003A982 /* HCTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E24E6200F2C8C0003A982 /* HCTabBarItem.m */; };
+		CA6E24EA200F2CB80003A982 /* HCBadgeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E24E9200F2CB80003A982 /* HCBadgeValue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA6E24B8200EF2EC0003A982 /* HCTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6E24BB200EF2EC0003A982 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA6E24BC200EF2EC0003A982 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA6E24BE200EF2EC0003A982 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA6E24BF200EF2EC0003A982 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA6E24C2200EF2EC0003A982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA6E24C4200EF2EC0003A982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6E24C7200EF2EC0003A982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA6E24C9200EF2EC0003A982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6E24CA200EF2EC0003A982 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA6E24D3200EF3260003A982 /* UIColor+HCHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HCHex.h"; sourceTree = "<group>"; };
+		CA6E24D4200EF3260003A982 /* UIColor+HCHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HCHex.m"; sourceTree = "<group>"; };
+		CA6E24D6200EF3D90003A982 /* UIView+HCFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HCFrame.h"; sourceTree = "<group>"; };
+		CA6E24D7200EF3D90003A982 /* UIView+HCFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HCFrame.m"; sourceTree = "<group>"; };
+		CA6E24D9200EF4B90003A982 /* CAAnimation+HCAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+HCAnimation.h"; sourceTree = "<group>"; };
+		CA6E24DA200EF4B90003A982 /* CAAnimation+HCAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+HCAnimation.m"; sourceTree = "<group>"; };
+		CA6E24DC200F18650003A982 /* HCTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTabBarController.h; sourceTree = "<group>"; };
+		CA6E24DD200F18650003A982 /* HCTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTabBarController.m; sourceTree = "<group>"; };
+		CA6E24DF200F18990003A982 /* HCTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTabBar.h; sourceTree = "<group>"; };
+		CA6E24E0200F18990003A982 /* HCTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTabBar.m; sourceTree = "<group>"; };
+		CA6E24E2200F19760003A982 /* HCTabBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTabBarConfig.h; sourceTree = "<group>"; };
+		CA6E24E3200F19760003A982 /* HCTabBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTabBarConfig.m; sourceTree = "<group>"; };
+		CA6E24E5200F2C8C0003A982 /* HCTabBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTabBarItem.h; sourceTree = "<group>"; };
+		CA6E24E6200F2C8C0003A982 /* HCTabBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTabBarItem.m; sourceTree = "<group>"; };
+		CA6E24E8200F2CB80003A982 /* HCBadgeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCBadgeValue.h; sourceTree = "<group>"; };
+		CA6E24E9200F2CB80003A982 /* HCBadgeValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCBadgeValue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6E24B5200EF2EC0003A982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA6E24AF200EF2EC0003A982 = {
+			isa = PBXGroup;
+			children = (
+				CA6E24BA200EF2EC0003A982 /* HCTabBarController */,
+				CA6E24B9200EF2EC0003A982 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6E24B9200EF2EC0003A982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6E24B8200EF2EC0003A982 /* HCTabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6E24BA200EF2EC0003A982 /* HCTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				CA6E24D1200EF2F00003A982 /* HCTabBarController */,
+				CA6E24BB200EF2EC0003A982 /* AppDelegate.h */,
+				CA6E24BC200EF2EC0003A982 /* AppDelegate.m */,
+				CA6E24BE200EF2EC0003A982 /* ViewController.h */,
+				CA6E24BF200EF2EC0003A982 /* ViewController.m */,
+				CA6E24C1200EF2EC0003A982 /* Main.storyboard */,
+				CA6E24C4200EF2EC0003A982 /* Assets.xcassets */,
+				CA6E24C6200EF2EC0003A982 /* LaunchScreen.storyboard */,
+				CA6E24C9200EF2EC0003A982 /* Info.plist */,
+				CA6E24CA200EF2EC0003A982 /* main.m */,
+			);
+			path = HCTabBarController;
+			sourceTree = "<group>";
+		};
+		CA6E24D1200EF2F00003A982 /* HCTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				CA6E24D2200EF3000003A982 /* Utility */,
+				CA6E24DC200F18650003A982 /* HCTabBarController.h */,
+				CA6E24DD200F18650003A982 /* HCTabBarController.m */,
+				CA6E24DF200F18990003A982 /* HCTabBar.h */,
+				CA6E24E0200F18990003A982 /* HCTabBar.m */,
+				CA6E24E5200F2C8C0003A982 /* HCTabBarItem.h */,
+				CA6E24E6200F2C8C0003A982 /* HCTabBarItem.m */,
+				CA6E24E8200F2CB80003A982 /* HCBadgeValue.h */,
+				CA6E24E9200F2CB80003A982 /* HCBadgeValue.m */,
+				CA6E24E2200F19760003A982 /* HCTabBarConfig.h */,
+				CA6E24E3200F19760003A982 /* HCTabBarConfig.m */,
+			);
+			path = HCTabBarController;
+			sourceTree = "<group>";
+		};
+		CA6E24D2200EF3000003A982 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CA6E24D3200EF3260003A982 /* UIColor+HCHex.h */,
+				CA6E24D4200EF3260003A982 /* UIColor+HCHex.m */,
+				CA6E24D6200EF3D90003A982 /* UIView+HCFrame.h */,
+				CA6E24D7200EF3D90003A982 /* UIView+HCFrame.m */,
+				CA6E24D9200EF4B90003A982 /* CAAnimation+HCAnimation.h */,
+				CA6E24DA200EF4B90003A982 /* CAAnimation+HCAnimation.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6E24B7200EF2EC0003A982 /* HCTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6E24CE200EF2EC0003A982 /* Build configuration list for PBXNativeTarget "HCTabBarController" */;
+			buildPhases = (
+				CA6E24B4200EF2EC0003A982 /* Sources */,
+				CA6E24B5200EF2EC0003A982 /* Frameworks */,
+				CA6E24B6200EF2EC0003A982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCTabBarController;
+			productName = HCTabBarController;
+			productReference = CA6E24B8200EF2EC0003A982 /* HCTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6E24B0200EF2EC0003A982 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "北京大账房信息技术有限公司";
+				TargetAttributes = {
+					CA6E24B7200EF2EC0003A982 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CA6E24B3200EF2EC0003A982 /* Build configuration list for PBXProject "HCTabBarController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6E24AF200EF2EC0003A982;
+			productRefGroup = CA6E24B9200EF2EC0003A982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6E24B7200EF2EC0003A982 /* HCTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6E24B6200EF2EC0003A982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6E24C8200EF2EC0003A982 /* LaunchScreen.storyboard in Resources */,
+				CA6E24C5200EF2EC0003A982 /* Assets.xcassets in Resources */,
+				CA6E24C3200EF2EC0003A982 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6E24B4200EF2EC0003A982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6E24E4200F19760003A982 /* HCTabBarConfig.m in Sources */,
+				CA6E24EA200F2CB80003A982 /* HCBadgeValue.m in Sources */,
+				CA6E24D8200EF3D90003A982 /* UIView+HCFrame.m in Sources */,
+				CA6E24C0200EF2EC0003A982 /* ViewController.m in Sources */,
+				CA6E24E7200F2C8C0003A982 /* HCTabBarItem.m in Sources */,
+				CA6E24DE200F18650003A982 /* HCTabBarController.m in Sources */,
+				CA6E24DB200EF4B90003A982 /* CAAnimation+HCAnimation.m in Sources */,
+				CA6E24E1200F18990003A982 /* HCTabBar.m in Sources */,
+				CA6E24CB200EF2EC0003A982 /* main.m in Sources */,
+				CA6E24D5200EF3260003A982 /* UIColor+HCHex.m in Sources */,
+				CA6E24BD200EF2EC0003A982 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA6E24C1200EF2EC0003A982 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6E24C2200EF2EC0003A982 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA6E24C6200EF2EC0003A982 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6E24C7200EF2EC0003A982 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA6E24CC200EF2EC0003A982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA6E24CD200EF2EC0003A982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6E24CF200EF2EC0003A982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HCTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazhangfang.cn.HCTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA6E24D0200EF2EC0003A982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HCTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazhangfang.cn.HCTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6E24B3200EF2EC0003A982 /* Build configuration list for PBXProject "HCTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6E24CC200EF2EC0003A982 /* Debug */,
+				CA6E24CD200EF2EC0003A982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6E24CE200EF2EC0003A982 /* Build configuration list for PBXNativeTarget "HCTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6E24CF200EF2EC0003A982 /* Debug */,
+				CA6E24D0200EF2EC0003A982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6E24B0200EF2EC0003A982 /* Project object */;
+}
