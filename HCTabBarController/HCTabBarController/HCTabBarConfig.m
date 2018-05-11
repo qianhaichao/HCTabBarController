@@ -84,7 +84,7 @@ static HCTabBarConfig *_shareInstance = nil;
 {
     _badgeSize = badgeSize;
     for (HCTabBarItem *item in [self getTabBarItems]) {
-        item.badgeValue.badgeLabel.size = badgeSize;
+        item.badgeValue.size = badgeSize;
     }
 }
 
@@ -92,15 +92,15 @@ static HCTabBarConfig *_shareInstance = nil;
 {
     _badgeOffset = badgeOffset;
     for (HCTabBarItem *item in [self getTabBarItems]) {
-        item.badgeValue.badgeLabel.x += badgeOffset.x;
-        item.badgeValue.badgeLabel.y += badgeOffset.y;
+        item.badgeValue.x += badgeOffset.x;
+        item.badgeValue.y += badgeOffset.y;
     }
 }
 - (void)setBadgeRadius:(CGFloat)badgeRadius
 {
     _badgeRadius = badgeRadius;
     for (HCTabBarItem *item in [self getTabBarItems]) {
-        item.badgeValue.badgeLabel.layer.cornerRadius = badgeRadius;
+        item.badgeValue.layer.cornerRadius = badgeRadius;
     }
 }
 
@@ -133,8 +133,8 @@ static HCTabBarConfig *_shareInstance = nil;
 - (void)showNumberBadge:(NSString *)badgeNumber atIndex:(NSInteger)index
 {
     HCTabBarItem *item = [self getTabBarItemAtIndex:index];
-    item.badgeValue.hidden = NO;
-    item.badgeValue.badgeLabel.text = badgeNumber;
+    item.badgeValue.hidden = [badgeNumber isEqualToString:@"0"] || [badgeNumber integerValue] <= 0;
+    item.badgeValue.badgeLabel.text = [badgeNumber integerValue] >= 100 ? @"99+" : badgeNumber;
     item.badgeValue.badgeType = HCBadgeValueType_Number;
 }
 

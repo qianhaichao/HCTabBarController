@@ -10,8 +10,7 @@
 #import "UIColor+HCHex.h"
 @class HCTabBarController;
 
-//TabBar高度
-#define kTabBarHeight  ([[UIApplication sharedApplication] statusBarFrame].size.height > 20 ? 83 : 49)
+//TabBarItem高度
 #define kTabBarItemHeight  49
 
 /*******布局枚举******/
@@ -81,7 +80,7 @@ typedef void(^HCCustomItemClickBlock)(UIButton *customItem,NSInteger index);
 //badgeBgColor 徽标背景颜色(默认是 #FF4040)
 @property (nonatomic,strong) UIColor       *badgeBgColor;
 //badgeSize 徽标大小(如果没有特殊需求，请勿修改此属性,此属性只有在控制器加载完成后设置才有效)
-@property (nonatomic,assign) CGSize       badgeSize;
+@property (nonatomic,assign) CGSize        badgeSize;
 //badgeOffset 徽标偏移位置(如果没有特殊需求，请勿修改此属性,此属性只有在控制器加载完成后设置才有效)
 @property (nonatomic,assign) CGPoint       badgeOffset;
 //badgeRadius 圆角大小(如果没有特殊需求，请勿修改此属性,此属性只有在控制器加载完成后设置才有效,一般配合badgeSize使用)

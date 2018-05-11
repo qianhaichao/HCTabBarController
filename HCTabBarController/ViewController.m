@@ -24,7 +24,9 @@
 {
 //    [[HCTabBarConfig sharedInstance] showNewBadgeAtIndex:1];
     
-    [[HCTabBarConfig sharedInstance] showNumberBadge:@"12" atIndex:1];
+    [[HCTabBarConfig sharedInstance] showNumberBadge:@"100000" atIndex:1];
+    [[HCTabBarConfig sharedInstance] showPointBadgeAtIndex:3];
+    [[HCTabBarConfig sharedInstance] showNumberBadge:@"1" atIndex:2];
 }
 
 @end

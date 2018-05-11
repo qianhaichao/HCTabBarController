@@ -36,12 +36,12 @@
     if(self = [super initWithFrame:frame]){
         
         //创建子控件
-        [titles enumerateObjectsUsingBlock:^(NSString * _Nonnull title, NSUInteger idx, BOOL * _Nonnull stop) {
+        [normalImages enumerateObjectsUsingBlock:^(NSString * _Nonnull normalImage, NSUInteger idx, BOOL * _Nonnull stop) {
             
             HCTabBarItem *tabBarItem = [[HCTabBarItem alloc] init];
-            tabBarItem.imageView.image = [UIImage imageNamed:normalImages[idx]];
+            tabBarItem.imageView.image = [UIImage imageNamed:normalImage];
             tabBarItem.titleLabel.textColor = [HCTabBarConfig sharedInstance].normalTitleColor;
-            tabBarItem.titleLabel.text = title;
+            tabBarItem.titleLabel.text = titles[idx];
             tabBarItem.tag = idx;
             tabBarItem.layoutType = [HCTabBarConfig sharedInstance].layoutType;
             [self addSubview:tabBarItem];

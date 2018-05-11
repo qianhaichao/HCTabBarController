@@ -32,8 +32,8 @@
     _badgeType = badgeType;
     
     if(badgeType == HCBadgeValueType_Point){ //点
-        self.badgeLabel.size = CGSizeMake(10, 10);
-        self.badgeLabel.layer.cornerRadius = 5.f;
+        self.badgeLabel.size = CGSizeMake(8, 8);
+        self.badgeLabel.layer.cornerRadius = 4.f;
         self.badgeLabel.x = 0;
         self.badgeLabel.y = (self.height - self.badgeLabel.size.height) * 0.5;
     }else if (badgeType == HCBadgeValueType_New){ //New
@@ -70,6 +70,7 @@
     _badgeLabel.backgroundColor = [HCTabBarConfig sharedInstance].badgeBgColor;
     _badgeLabel.layer.cornerRadius = 8.0f;
     _badgeLabel.layer.masksToBounds = YES;
+    _badgeLabel.adjustsFontSizeToFitWidth = YES;
     _badgeLabel.textAlignment = NSTextAlignmentCenter;
     [self addSubview:_badgeLabel];
     return _badgeLabel;

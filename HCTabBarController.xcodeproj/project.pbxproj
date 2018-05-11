@@ -50,10 +50,18 @@
 		CA6E24E6200F2C8C0003A982 /* HCTabBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTabBarItem.m; sourceTree = "<group>"; };
 		CA6E24E8200F2CB80003A982 /* HCBadgeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCBadgeValue.h; sourceTree = "<group>"; };
 		CA6E24E9200F2CB80003A982 /* HCBadgeValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCBadgeValue.m; sourceTree = "<group>"; };
+		CA8C09E1206CB62000D61BB5 /* Layoutsubviews调用机制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Layoutsubviews调用机制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CA6E24B5200EF2EC0003A982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8C09DE206CB62000D61BB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				CA6E24B8200EF2EC0003A982 /* HCTabBarController.app */,
+				CA8C09E1206CB62000D61BB5 /* Layoutsubviews调用机制.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +156,23 @@
 			productReference = CA6E24B8200EF2EC0003A982 /* HCTabBarController.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CA8C09E0206CB62000D61BB5 /* Layoutsubviews调用机制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8C09F6206CB62000D61BB5 /* Build configuration list for PBXNativeTarget "Layoutsubviews调用机制" */;
+			buildPhases = (
+				CA8C09DD206CB62000D61BB5 /* Sources */,
+				CA8C09DE206CB62000D61BB5 /* Frameworks */,
+				CA8C09DF206CB62000D61BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Layoutsubviews调用机制";
+			productName = "Layoutsubviews调用机制";
+			productReference = CA8C09E1206CB62000D61BB5 /* Layoutsubviews调用机制.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -157,6 +183,10 @@
 				ORGANIZATIONNAME = "北京大账房信息技术有限公司";
 				TargetAttributes = {
 					CA6E24B7200EF2EC0003A982 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CA8C09E0206CB62000D61BB5 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -176,6 +206,7 @@
 			projectRoot = "";
 			targets = (
 				CA6E24B7200EF2EC0003A982 /* HCTabBarController */,
+				CA8C09E0206CB62000D61BB5 /* Layoutsubviews调用机制 */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +219,13 @@
 				CA6E24C8200EF2EC0003A982 /* LaunchScreen.storyboard in Resources */,
 				CA6E24C5200EF2EC0003A982 /* Assets.xcassets in Resources */,
 				CA6E24C3200EF2EC0003A982 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8C09DF206CB62000D61BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +247,13 @@
 				CA6E24CB200EF2EC0003A982 /* main.m in Sources */,
 				CA6E24D5200EF3260003A982 /* UIColor+HCHex.m in Sources */,
 				CA6E24BD200EF2EC0003A982 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8C09DD206CB62000D61BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +411,32 @@
 			};
 			name = Release;
 		};
+		CA8C09F4206CB62000D61BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Layoutsubviews调用机制/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dazhangfang.cn.Layoutsubviews----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA8C09F5206CB62000D61BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Layoutsubviews调用机制/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dazhangfang.cn.Layoutsubviews----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -383,6 +454,15 @@
 			buildConfigurations = (
 				CA6E24CF200EF2EC0003A982 /* Debug */,
 				CA6E24D0200EF2EC0003A982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8C09F6206CB62000D61BB5 /* Build configuration list for PBXNativeTarget "Layoutsubviews调用机制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8C09F4206CB62000D61BB5 /* Debug */,
+				CA8C09F5206CB62000D61BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

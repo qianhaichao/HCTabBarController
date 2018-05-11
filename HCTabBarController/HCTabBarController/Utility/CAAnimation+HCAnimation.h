@@ -29,8 +29,20 @@
  */
 + (CABasicAnimation *)HC_ScaleAnimation;
 
+
+/**
+ 旋转
+ */
 + (CABasicAnimation *)HC_TabBarRotationY;
+
+/**
+ 放大
+ */
 + (CABasicAnimation *)HC_TabBarBoundsMin;
+
+/**
+ 缩小动画
+ */
 + (CABasicAnimation *)HC_TabBarBoundsMax;
 
 @end

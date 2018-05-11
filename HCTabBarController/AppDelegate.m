@@ -38,7 +38,8 @@
         [controllers addObject:nav];
     }
     HCTabBarConfig *tabBarConfig = [HCTabBarConfig sharedInstance];
-    tabBarConfig.tabBarItemAnimateType = HCConfigTabBarItemAnimateType_BoundsMin;
+    tabBarConfig.tabBarItemAnimateType = HCConfigTabBarItemAnimateType_RotationY;
+    tabBarConfig.badgeAnimateType = HCConfigBadgeValueAnimateType_Scale;
     
     HCTabBarController *tabBarVC = [[HCTabBarController alloc] initWithViewControllers:controllers normalImages:imageNormalArr selectedImages:imageSelectedArr titles:titleArr tabBarConfig:tabBarConfig];
     
@@ -47,7 +48,7 @@
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
 //    btn.imageEdgeInsets = UIEdgeInsetsMake(-20, 0, 0, 0);
-    [btn setImage:[UIImage imageNamed:@"add1"] forState:UIControlStateNormal];
+    [btn setImage:[UIImage imageNamed:@"VIP"] forState:UIControlStateNormal];
     [tabBarConfig addCustomTabBarItem:btn adIndex:2 itemClickBlock:^(UIButton *customItem, NSInteger index) {
         NSLog(@"*******点击了中间按钮********");
         UIViewController *vc = [[UIViewController alloc] init];
